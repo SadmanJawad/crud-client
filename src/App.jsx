@@ -1,5 +1,6 @@
 import Create from "./Create/Create";
 import Read from "./Read/Read";
+import Update from "./Update/Update";
 
 const App = () => {
   return (
@@ -46,7 +47,7 @@ const App = () => {
           role="tabpanel"
           className="tab-content bg-base-100 border-green-500 rounded-box p-6"
         >
-          Tab content 3
+          <Update />
         </div>
         <input
           type="radio"
